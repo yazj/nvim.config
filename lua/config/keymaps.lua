@@ -4,10 +4,10 @@
 local keymap = vim.keymap
 
 keymap.set("i", "jj", "<Esc>")
-keymap.set("n", "<leader>sv", "<C-W>v")
+keymap.set("n", "<leader>wv", "<C-W>v")
 keymap.set("n", "<leader>tt", "<cmd>ToggleTerm<cr>")
-keymap.set("n", "<C-j>", "<cmd>TmuxNavigateDown<cr>")
-keymap.set("n", "<C-k>", "<cmd>TmuxNavigateUp<cr>")
+--keymap.set("n", "<C-j>", "<cmd>TmuxNavigateDown<cr>")
+--keymap.set("n", "<C-k>", "<cmd>TmuxNavigateUp<cr>")
 
 -- tab nav
 keymap.set("n", "<leader>tn", "<cmd>tabnext<cr>")
@@ -36,5 +36,3 @@ keymap.set("n", "<leader>hw", ":HopWord<cr>")
 keymap.set("n", "<leader>hww", ":HopWordMW<cr>")
 keymap.set("n", "<leader>hc", ":HopChar1<cr>")
 keymap.set("n", "<leader>hcw", ":HopChar1MW<cr>")
-
-keymap.set("n", "<leader>ge", "<cmd>ChatGPTEditWithInstructions<cr>")
