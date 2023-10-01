@@ -18,5 +18,6 @@
 |F4|停止调试 |
 |F3|清除断点 |
 |F12|step over |
-|F7|step info |
-|\<leader\>de |eval() |
+|F10|step info |
+|F7|step out|
+|F2 |eval() |
