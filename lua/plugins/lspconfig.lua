@@ -3,6 +3,7 @@ return {
   opts = {
     servers = {
       -- Ensure mason installs the server
+      solargraph = {},
       clangd = {
         keys = {
           { "<leader>cR", "<cmd>ClangdSwitchSourceHeader<cr>", desc = "Switch Source/Header (C/C++)" },

@@ -2,6 +2,7 @@ return {
   "mfussenegger/nvim-dap",
   optional = true,
   dependencies = {
+    "suketa/nvim-dap-ruby",
 
     -- fancy UI for the debugger
     {
@@ -49,6 +50,7 @@ return {
         end
       end,
       config = function(_, opts)
+        require("dap-ruby").setup()
         -- setup dap config by VsCode launch.json file
         -- require("dap.ext.vscode").load_launchjs()
         local dap = require("dap")
