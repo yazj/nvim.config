@@ -42,8 +42,14 @@ M.mason = {
 
 -- git support in nvimtree
 M.nvimtree = {
+
+  filters = {
+    dotfiles = true, -- default false
+  },
+
   git = {
     enable = true,
+    ignore = true,
   },
 
   renderer = {
