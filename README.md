@@ -6,7 +6,7 @@
 
 ```bash
 mv ~/.config/nvim ~/.config/nvim_backup
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 git clone https://github.com/yazj/nvim.config.git ~/.config/nvim/lua/custom 
 rm -r ~/.config/nvim/lua/custom/.git
 ```
@@ -24,4 +24,5 @@ rm -r ~/.config/nvim/lua/custom/.git
 + Nvim启动时开启NeoTree
 
 + [MarkdownPreview](https://github.com/iamcco/markdown-preview.nvim) 
+
 
