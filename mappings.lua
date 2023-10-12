@@ -13,6 +13,8 @@ M.general = {
     ["<C-Down>"] = { "<cmd>resize -2<cr>", "Decrease window height" },
     ["<C-Left>"] = { "<cmd>vertical resize -2<cr>", "Decrease window width" },
     ["<C-Right>"] = { "<cmd>vertical resize +2<cr>", "Increase window width" },
+    -- clang switch header / source files
+    ["<leader>cR"] = { "<cmd>ClangdSwitchSourceHeader<cr>", desc = "Switch Source/Header (C/C++)" },
   },
   v = {
     [">"] = { ">gv", "indent" },
